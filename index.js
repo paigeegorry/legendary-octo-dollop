@@ -1,1 +1,16 @@
-console.log('hello bcpreppers!');
+var x = 12;
+
+//(consition that if true, code block runs)
+if (x % 2 === 0){
+    console.log(x, 'is even!');
+}
+
+//(innit; condition; post-loop)
+
+for(var i = 0; i <= 100; i++){
+    if (i % 2 === 0) {
+       console.log('the number is', i); 
+    }
+}
+
+console.log('all done');
